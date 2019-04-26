@@ -1,6 +1,6 @@
 ---
 layout: default
-title: publication
+title: publications
 ---
 <h1> Journal Articles </h1>
 <ul>
