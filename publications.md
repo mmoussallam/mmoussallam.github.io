@@ -2,6 +2,8 @@
 layout: default
 title: publications
 ---
+A supposedly up-to-date list of my publications.
+
 <h1> Journal Articles </h1>
 <ul>
 {% for item in site.publications %}
