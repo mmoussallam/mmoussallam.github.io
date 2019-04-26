@@ -1,2 +1,5 @@
 # Jekyll config
 theme: jekyll-theme-midnight
+
+collections:
+  publications:
