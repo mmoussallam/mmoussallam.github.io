@@ -1,5 +1,5 @@
 # Jekyll config
-theme: minima
+theme: jekyll-theme-minimal
 
 collections:
   publications:
