@@ -1,9 +1,89 @@
 ---
 layout: default
-message: "welcome visitors, may you find what you're looking for"
+description: "welcome visitors, may you find what you're looking for"
 title: Home
 ---
 <h1>Welcome</h1>
-<p>{{ page.message | capitalize }}</p>
+<div class="alert">This site is work in progress, if you don't find what you look for: please check the <a
+        href="http://manuel.moussallam.net">former version</a>.</div>
+I am currently working as head of R&D at <a href="www.deezer.com">Deezer</a>. This page however presents the research I did prior to that.
 
-<div class="alert">This site is work in progress, if you don't find what you look for: please check the <a href="http://manuel.moussallam.net">former version</a></div>
+<h2>Research Area</h2>
+<h3>Sparse signal decompositions</h3>
+<h4>Overview</h4>
+<div class="subParagContent">
+    <p>I have been (and still am) very interested in sparse decomposition algorithms, especially greedy ones
+        and essentially on Audio/Acoustics signals (e.g. 1D data) <br>During my PhD I have developped a variant
+        of the Matching Pursuit (MP) algorithm, which is called Random Sequential Subdictionaries Matching Pursuit
+        (RSSMP). It mainly uses randomness to artificially increase the number of atoms among which the algorithm is
+        allowed to choose.<br>
+        I then used this algorithm to enhance low bitrate audio compression schemes.
+    </p>
+</div>
+<h4>Papers and support material</h4>
+<div class="subParagContent">
+    <ul>
+        <li>The paper explaining the algorithm is <a href="docs/Moussallam_RSSMP_arxiv">here</a></li>
+        <li>Audio samples illustrating the results can be found <a
+                href="http://www.tsi.telecom-paristech.fr/aao/?p=531">here</a> (to be transfered)</li>
+        <li>Matlab code for the algorithm is available on <a
+                href="http://www.mathworks.com/matlabcentral/fileexchange/37537">FileExchange</a>
+        </li>
+    </ul>
+</div>
+<h3>Audio Source Separation</h3>
+<h4>Overview</h4>
+<div class="paragContent">
+    Source Separation is the process of retrieving mixed signals given only their mixtures. This typically the case of
+    musical signals
+    where multiple instruments play simultaneously and only the mix is available.
+    Recently a lot of interest in repetition-based method encouraged me to propose separation algorithm that exploits
+    the knowledge of
+    repeating musical patterns. Combined with a classical sparse prior on the source, a structured sparsity model can be
+    derived.
+    The problem becomes an instance of a Multiple Measurement Vector (MMV) case and can be addressed using a greedy
+    algorithm.
+    <h5>Papers and support material</h5>
+    <div class="subParagContent">
+        <ul>
+            <li>The paper explaining the algorithm is <a href="docs/moussallam_eusipco12_bss.pdf">here</a></li>
+        </ul>
+    </div>
+</div>
+<h3>Blind Denoising of time series</h3>
+<h4>Overview</h4>
+<div class="paragContent">
+    Denoising with sparse approximation is a fairly mature field since the wavelet thresholding era.
+    Most state-of-the-art techniques, however, require the knowledge of the noise characteristics
+    and/or statistical properties, which might not be available in practice. Instead, we can assume that the
+    informative part of the signal is sparse in some known basis, on which the additive noise is incoherent.
+    When a greedy algorithm is used for denoising, these assumptions provide a self-stopping criterion,
+    without knowledge of the noise level. Combined with a randomization of the dictionary at each iteration,
+    this forms the basis of a new denoising procedure, called Blind Random Pursuit Denoising (BIRD). It can
+    be generalized to the denoising of multidimensional signals, with a structured sparse model (S-BIRD).
+    The relevance of this approach is demonstrated on synthetic and experimental M/EEG signals, where
+    BIRD outperforms state-of-the-art algorithms, even with an oracle knowledge of the noise level.
+    <h5>Papers and support material</h5>
+    <div class="subParagContent">
+        <ul>
+            <li> The paper explaining the algorithm is <a href="http://arxiv.org/abs/1312.5444">here</a></li>
+            <!-- <li> A conference paper (in french) is available<a href="docs/moussallam_gretsi13.pdf">here</a></li> -->
+        </ul>
+    </div>
+</div>
+<h3>Reproducing research and code</h3>
+<div class="paragContent">
+    <p>A Python package for greedy decomposition (including RSSMP)
+        is available in the form of the PyMP package (on <a href="https://github.com/mmoussallam/PyMP">github</a>).
+        I try to provide extensive <a href="http://moussallam.net/manu/PyMP/">documentation</a> and even wrote tutorials
+        to reproduce some results from the paper. </p>
+    <p> Source code for our denoising algorithm BIRD is on <a href="https://github.com/mmoussallam/bird">github</a> (Joint work with A.
+        Gramfort) </p>
+    <p>If you're interested in getting code from my other work please feel free to contact me.</p>
+</div>
+
+<h3>Volcanology</h3>
+<div class="paragContent">
+<p>My brother <a href="http://lmv.uca.fr/moussallam-yves/">Yves</a> is a famous volcanologist and I have assisted him in his field data analysis. </p>
+
+</div>
