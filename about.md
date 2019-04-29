@@ -29,6 +29,3 @@ Nowadays I'm a full-time researcher.
 * Jazz trumpet in Joinville-le-pont's Big Band orchestra.
 * Singer and guitar in rock band "The Spaghetti warriors".
 * Drums in "Alarm Alarm"
-
-
-Contact me on twitter @mmoussallam

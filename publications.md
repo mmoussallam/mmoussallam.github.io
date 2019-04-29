@@ -1,6 +1,6 @@
 ---
 layout: default
-title: publications
+title: Publications
 ---
 A supposedly up-to-date list of my publications.
 

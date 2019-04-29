@@ -1,19 +1,14 @@
 # Jekyll config
-title: Manuel. Moussallam
+title: Manuel Moussallam
 author: mmoussallam
 email: manuel@moussallam.net
 description: > # this means to ignore newlines until "show_exerpts:"
   "This is my personnal website. If you'd like to contact me for professional reasons, please use my deezer address: mmoussallam -at- deezer.com"
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%b %-d, %Y"
-  social_links:
-    twitter: MMoussallam
-    github: mmousallam
-    linkedin: manuel-moussallam-b5570a64
+twitter_username: MMoussallam
+github_username: mmousallam
+linkedin_username: manuel-moussallam-b5570a64
 
 theme: minima
 
