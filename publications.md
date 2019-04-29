@@ -16,7 +16,7 @@ A supposedly up-to-date list of my publications.
         {%if item.journal_url %} <a href="{{item.journal_url}}">link</a> {% endif %} 
         {%if item.preprint %} <a href="{{item.preprint}}">preprint</a> {% endif %}
         {%if item.github %} <a href="{{item.github}}">source code</a>  {% endif %}
-        
+        {%if item.bibtex %} <button onclick="alert('{{item.bibtex}}')">bibtex</button> {% endif %}
         </li>
     {% endif %}
 
