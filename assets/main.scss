@@ -1,0 +1,27 @@
+---
+---
+@import "{{site.theme}}";
+
+body {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+.site-nav .page-link {
+    color: white;
+}
+
+table tr:nth-child(2n) {
+    background-color:black;
+}
+
+table{
+    color: beige;
+}
+
+table th{
+    background-color: rgb(20,20,20);
+}
+
+footer {
+    color: aqua
+}
