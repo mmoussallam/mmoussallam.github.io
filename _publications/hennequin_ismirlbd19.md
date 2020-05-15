@@ -1,6 +1,6 @@
 ---
 type: conference
-title: "Spleeter: a fast and state-of-the art music source separation tool with pre-trained models"
+papertitle: "Spleeter: a fast and state-of-the art music source separation tool with pre-trained models"
 year: 2019
 authors: R. Hennequin, A. Khlif, F. Voituret, M. Moussallam
 conference: ISMIR Late-Breaking Demo Session
